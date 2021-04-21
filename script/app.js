@@ -9,11 +9,11 @@ const theme = document.querySelector("#bar")
 
 function checkout(footer)
 {
-    let li = document.createElement('span');
-    let note = document.createTextNode(footer);
-    li.appendChild(footer);
-    document.getElementById("footer").appendChild(span);
+    let cart = document.createElement('span');
+    let click = document.createTextNode(albums[0]);
+    cart.appendChild(click);
+    document.getElementById("bar").appendChild(cart);
 
 }
 
-img.addEventListener("click", checkout);
+Album1.addEventListener("click", checkout);
