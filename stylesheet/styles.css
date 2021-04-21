@@ -2,9 +2,9 @@ body{
     font-family: 'RocknRoll One', sans-serif;
     background-color: black;
     color: #FFD700;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 6;
-    grid-template-rows: 6;
+    grid-template-rows: 6; */
 }
 
 ul{
@@ -42,12 +42,63 @@ footer span{
     padding-right: 125px;
 }
 
+.footer{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 10px;
+}
 
+section{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
 
+.container1{
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    justify-content: right;
+    /* height: 175px;
+    width: auto; */
+}
 
+.container1 span{
+    text-align: center;
+}
 
+.container2{
+    grid-column: 4;
+    grid-row: 1;
+    display: grid;
+    justify-content: left;
+}
 
+.container2 span{
+    text-align: center;
+}
 
+.container3{
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    justify-content: right;
+}
+
+.container3 span{
+    text-align: center;
+}
+
+.container4{
+    grid-column: 4;
+    grid-row: 3;
+    display: grid;
+    justify-content: left;
+}
+
+.container4 span{
+    text-align: center;
+}
 
 @media screen and (max-width:640px) {
 
